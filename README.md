@@ -4,8 +4,6 @@ _______________________________
 
   📖 CTF TACKER: https://docs.google.com/spreadsheets/d/1jlqEO36erBYsbWpZMqeWeom0oO_AjFBYrjDYpK_kOz8/edit#gid=0
   
-  
-  🕴️ Theme: (SHADOW CTF)
 
   Flag: bhbureauCTF{}
   
