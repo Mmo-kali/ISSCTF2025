@@ -8,7 +8,7 @@ _______________________________
   Flag: bhbureauCTF{}
   
   
-  👀 Name: Black Hat Burea 
+  👀 Name: Black Hat Bureau 
 
 
 +++ CTF DEV TEAM +++
