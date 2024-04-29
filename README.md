@@ -6,9 +6,11 @@ _______________________________
   
   
   🕴️ Theme: (SHADOW CTF)
+
+  Flag: bhbureauCTF{}
   
   
-  👀 Name: TBD... 
+  👀 Name: Black hat 
 
 
 +++ CTF DEV TEAM +++
