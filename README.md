@@ -11,7 +11,7 @@ _______________________________
   👀 Name: Black Hat Bureau 
 
 
-+++ CTF DEV TEAM +++
++++ CTF DEV TEAM +++<br/>
 CTF Dev Lead 'Michael Nolk' <br/>
 CTF Coordinator 'Yaser Kassem' <br/>
 CTF Dev Orlando Companioni <br/>
