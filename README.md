@@ -14,5 +14,5 @@ _______________________________
 +++ CTF DEV TEAM +++
 
 (ADD NAMEs) 
-CTF Dev Lead 'Michael Nolk'
+CTF Dev Lead 'Michael Nolk' <br />
 CTF Coordinator 'Yaser Kassem'
