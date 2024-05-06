@@ -5,7 +5,7 @@ _______________________________
   📖 CTF TACKER: https://docs.google.com/spreadsheets/d/1jlqEO36erBYsbWpZMqeWeom0oO_AjFBYrjDYpK_kOz8/edit#gid=0
   
 
-  Flag: bhbureauCTF{}
+  🏴 Flag: bhbureauCTF{}
   
   
   👀 Name: Black Hat Bureau 
