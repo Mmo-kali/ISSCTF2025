@@ -18,3 +18,9 @@ One of these files will be named flag.txt.
 Retrieve the Flag:
 Once you identify flag.txt, make a GET request to the API specifically for that file.
 The contents of flag.txt will reveal the flag!
+
+
+
+
+
+THE API GITHUB URL: https://github.com/Mmo-kali/apiv1-usr/blob/main/README.md
