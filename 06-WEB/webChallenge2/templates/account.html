@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Session ID</title>
+</head>
+<body>
+    <h1>User Session ID</h1>
+    <p>Welcome <span id="username"></span></p>
+
+    <script>
+        // Get the username from the server-side and display it
+        var username = "{{ username }}"; // Replace with the actual username variable from Flask
+
+        // Update the username element with the retrieved username
+        document.getElementById("username").textContent = username;
+        
+    </script>
+</body>
+</html>
