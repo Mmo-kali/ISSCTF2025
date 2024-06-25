@@ -8,7 +8,8 @@ app = Flask(__name__)
 
 @app.route('/apiV1-usr', methods=['GET', 'POST'])
 def read_csv():
-    directory_path = r'API-Challenge\apiDirectory'  # Update this path
+    script_dir = os.path.dirname(__file__)  # Gets the directory where the script is located
+    directory_path = os.path.join(script_dir, 'apiDirectory')  # Correctly builds the path
 
     if request.method == 'GET':
         debug_pin = request.args.get('debugPin')
@@ -18,6 +19,7 @@ def read_csv():
             if not file_name:
                 return jsonify({"error": " 'debugPin' or 'fileName' parameter missing"}), 400
             else:
+
                 files = os.listdir(directory_path)
                 if file_name in files:
                     file_path = os.path.join(directory_path, file_name)
@@ -34,7 +36,9 @@ def read_csv():
                 return jsonify(files)
             elif file_name and file_name in files:
                 file_path = os.path.join(directory_path, file_name)
-                return send_file(file_path, as_attachment=True)
+                with open(file_path, 'r') as file:
+                    file_contents = file.read()
+                    return jsonify({"file_contents": file_contents})
             else:
                 return jsonify({"error": "File not found or fileName parameter missing"}), 404
             
