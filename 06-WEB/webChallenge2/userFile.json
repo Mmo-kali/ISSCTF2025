@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "username": "administrator",
+            "password": "zFV4Z6R#GexxTd7MCRZ@BDfU$4Lm^9WaxdgQQ8s2bu*PdJNw61w#eVk5qkc7"
+        },
+        {
+            "username": "alice",
+            "password": "test1@"
+        },
+        {
+            "username": "test",
+            "password": "rewt"
+        },
+        {
+            "username": "validUser",
+            "password": "password123"
+        },
+        {
+            "username": "existingUser",
+            "password": "password123"
+        },
+        {
+            "username": "administrator   t",
+            "password": "test"
+        },
+        {
+            "username": "administrator  %0t",
+            "password": "test"
+        }
+    ]
+}
