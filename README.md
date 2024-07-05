@@ -26,4 +26,9 @@ CTF Dev Joel Dykstra <br />
 _______________________________
 TIMELINE: 
 
-50% Completion - August 1st 
+50 Challenges in Completion - August 1 
+
+65 Challenges in Completion - September 15 
+
+75 Challenges in Completion - November 1  
+
