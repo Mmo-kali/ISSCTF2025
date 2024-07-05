@@ -16,6 +16,14 @@ CTF Dev Lead Michael Nolk <br/>
 CTF Coordinator Yaser Kassem <br/>
 CTF Dev Orlando Companioni <br/>
 CTF Dev Prajwal Nautiyal <br/> 
-CTF Dev Denis Chuprys<br/>
+CTF Dev Denis Chuprys <br/>
 CTF Dev Micah Joshua Rodjro <br/> 
 CTF Dev Joel Dykstra <br />
+
+
+
+
+_______________________________
+TIMELINE: 
+
+50% Completion - August 1st 
