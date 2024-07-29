@@ -1,1 +1,1 @@
-bhbureau{C:\Program Files\iSCN.exe}
+bhbureauCTF{C:\Program Files\iSCN.exe}
