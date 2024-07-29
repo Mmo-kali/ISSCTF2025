@@ -2,7 +2,7 @@
 This repo is ISSessionsCTF 2025
 _______________________________
 
-  📖 CTF TACKER: https://docs.google.com/spreadsheets/d/1jlqEO36erBYsbWpZMqeWeom0oO_AjFBYrjDYpK_kOz8/edit#gid=0
+  📖 CTF TRACKER: https://docs.google.com/spreadsheets/d/1jlqEO36erBYsbWpZMqeWeom0oO_AjFBYrjDYpK_kOz8/edit#gid=0
   
 
   🏴 Flag: bhbureauCTF{}
@@ -19,7 +19,7 @@ CTF Dev Prajwal Nautiyal <br/>
 CTF Dev Denis Chuprys <br/>
 CTF Dev Micah Joshua Rodjro <br/> 
 CTF Dev Joel Dykstra <br />
-
+CTF Dev Varun Ramesh <br />
 
 
 
