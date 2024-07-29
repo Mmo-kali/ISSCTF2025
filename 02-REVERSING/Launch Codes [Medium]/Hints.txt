@@ -3,6 +3,6 @@ Hmm you might need to patch some parts here...
 
 -----------------------------------------------
 Hint 2:
-(recommended to be released on the last day)
+(recommended to be released on the last day if challenge is unsolved)
 One of the keys was recovered by our analysts but the data seemed to be corrupted, seems the other key is the one which leads to the active code.
 Decrypted Key: S-75 Dvina
