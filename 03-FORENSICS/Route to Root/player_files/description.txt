@@ -1,0 +1,1 @@
+There seems to be vulnerable service running on one of the machines in our environment. Our Forensic team isolated the machine and got the files required for further investigation

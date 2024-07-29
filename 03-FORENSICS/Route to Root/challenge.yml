@@ -1,0 +1,22 @@
+﻿attempts: 0
+author: Varun R
+category: Forensics
+description: There seems to be vulnerable service running on one of the machines in our environment. Our Forensic team isolated the machine and got the files required for further investigation
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- bhbureau{C:\Program Files\iSCN.exe}
+hints: 
+- content: CVE-2022-4429, CVE-2024-31804, CVE-2023-7043.......
+  cost: 0
+name: Space 
+requirements:
+- CoC
+state: visible
+tags:
+- Medium
+type: dynamic
+value: 100
+version: '0.1'

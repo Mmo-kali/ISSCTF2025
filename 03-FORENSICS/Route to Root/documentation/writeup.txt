@@ -1,0 +1,1 @@
+Parse the .reg files and get the Image Path for all the services. Use this '^[^"]*?\s\S*\.exe\s?.*$' regex pattern to find the services that are unquoted and contains spaces in them 
