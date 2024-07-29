@@ -7,7 +7,7 @@ extra:
   initial: 100
   minimum: 30
 flags:
-- bhbureau{C:\Program Files\iSCN.exe}
+- bhbureauCTF{C:\Program Files\iSCN.exe}
 hints: 
 - content: CVE-2022-4429, CVE-2024-31804, CVE-2023-7043.......
   cost: 0
