@@ -11,7 +11,7 @@ flags:
 hints: 
 - content: CVE-2022-4429, CVE-2024-31804, CVE-2023-7043.......
   cost: 0
-name: Space 
+name: Route to Root
 requirements:
 - CoC
 state: visible
