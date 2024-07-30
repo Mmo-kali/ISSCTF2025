@@ -1,4 +1,0 @@
-[HARD]
-
-Operative, this seemingly plain looking calculator program is believed to be hiding a critical piece of information which can severely damage the our field operations.
-Find the hidden piece and report back ASAP.
