@@ -16,3 +16,5 @@ BOOL WriteProcessMemory(
 They will be in that order in the stack, pull the 'lpbuffer' as that is the flag
 
 Base64 decode it and then reverse the string, you'll get the corrected flag
+
+ShadowCTF{HIdd3n_M3mory}
