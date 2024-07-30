@@ -9,3 +9,5 @@ you'll come across a call for "chk", its return value is stored in eax which is 
 step into chk and continue on till you come across the an instance of string comparison (eqstring), flip the ZF there before jmp
 
 you'll have the flag decoded.
+
+SHADOWCTF{S3COND_S7RIKE}
