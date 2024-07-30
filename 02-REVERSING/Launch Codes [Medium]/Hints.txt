@@ -4,5 +4,4 @@ Hmm you might need to patch some parts here...
 -----------------------------------------------
 Hint 2:
 (recommended to be released on the last day if challenge is unsolved)
-One of the keys was recovered by our analysts but the data seemed to be corrupted, seems the other key is the one which leads to the active code.
-Decrypted Key: S-75 Dvina
+We've gotten a recent tip from an unknown source that one of the keys might lie in the name of a famous soviet missile system which even shot down two U-2 spy planes.
