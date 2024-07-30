@@ -4,4 +4,7 @@ Hmm you might need to patch some parts here...
 -----------------------------------------------
 Hint 2:
 (recommended to be released on the last day if challenge is unsolved)
-We've gotten a recent tip from an unknown source that one of the keys might lie in the name of a famous soviet missile system which even shot down two U-2 spy planes.
+Operative, we've good news which might help you. We've gotten a recent tip from an unknown source abouts one of the keys,
+"---Begin Transmission 
+One of the keys for that program lies in the name of a soviet missile system which shot to fame during the October Crisis for it's achievements.
+---End Transmission"
