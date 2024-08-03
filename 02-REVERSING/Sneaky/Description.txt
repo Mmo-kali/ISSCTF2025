@@ -1,0 +1,3 @@
+Operative, we have recieved a suspicious executable, it seems to be erratic in behaviour. 
+We have reason to belive one of our undercover agents embedded critical information in it.
+Analyse the behavior and retrieve the information. Good Luck!
