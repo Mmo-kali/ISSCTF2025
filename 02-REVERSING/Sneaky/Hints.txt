@@ -1,0 +1,9 @@
+Hint1
+-----------
+You'll learn more when you run this (and maybe you'll end up being lucky)
+------------------------------------------
+------------------------------------------
+Secondary hint in second executable
+Hint 3
+-----------
+Look for any function out of the ordinary
