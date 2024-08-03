@@ -1,0 +1,3 @@
+> find the condition for creation of second stage file (x = 4)
+> get the second file and find the function which was not called ("__"), grab the address and patch the binary to call it.
+> get the flag in the flag.txt
