@@ -1,9 +1,10 @@
 Hint1
 -----------
-You'll learn more when you run this (and maybe you'll end up being lucky)
+You'll learn more when you run this (and maybe you'll end up being lucky),
+Pay attention to the conditions under which the exe behaves differently.
 ------------------------------------------
 ------------------------------------------
 Secondary hint in second executable
 Hint 3
 -----------
-Look for any function out of the ordinary
+Look for unusual or unexplored code paths that might contain the hidden function.
