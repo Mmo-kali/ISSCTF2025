@@ -10,4 +10,4 @@ step into chk and continue on till you come across the an instance of string com
 
 you'll have the flag decoded.
 
-SHADOWCTF{S3COND_S7RIKE}
+S3COND_S7RIKE
