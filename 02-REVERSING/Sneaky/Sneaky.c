@@ -143,6 +143,10 @@ int main(int argc, char* argv[]) {
     srand(time(NULL));
     int x = (rand() % 6) + 1;
 
+    if (IsDebuggerPresent()) {
+        exit(EXIT_FAILURE);
+        }
+
     de(s1, 0x3A);
     de(s2, 0x7F);
     de(s3, 0xF9);
@@ -162,4 +166,3 @@ int main(int argc, char* argv[]) {
 
     return 0;
     }
-
