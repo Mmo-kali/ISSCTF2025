@@ -1,3 +1,4 @@
+> Preferably Unpack the first exe, and look through it, you'll find a call for IsDebuggerPresent(), manipulate ZF in debugger to jmp over it or binary patch it
 > find the condition for creation of second stage file (x = 4) (either in debugging or by unpacking the binary with UPX)
 > get the second file and find the function which was not called ("__"), grab the address and patch the binary to call it.
 > get the flag in the flag.txt
