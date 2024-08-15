@@ -1,7 +1,6 @@
 import strutils, nimcrypto
 
 var 
-    a : seq[char]
     b : char
     e : char
     te : seq[char]
@@ -62,8 +61,6 @@ proc ob (i: seq[char]) : seq[char] =
     return r
 
 proc ini =
-    te = @['S','H', 'A', 'D', 'O', 'W', 'C', 'T', 'F']
-    a = ob(te)
     b = '{'
     e = '}'
     te = @['S', '3', 'C']
@@ -168,13 +165,11 @@ proc mn =
     case rc:
         of 1:
             stdout.write("Your requested resource is: ")
-            stdout.write(ob(a).join(""))
             stdout.write(b)
             stdout.write(c11.join("") & c21.join("") & c33.join("") & c14.join(""))
             stdout.write(e)
         of -1:
             stdout.write("Your requested resource is: ")
-            stdout.write(de(a).join(""))
             stdout.write(b)
             stdout.write(c22.join("") & c12.join("") & c23.join(""))
             stdout.write(e)
