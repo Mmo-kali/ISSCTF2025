@@ -78,7 +78,7 @@ uwu:
         mov eax, [ecx + eax * 0x04]
         add eax, ebx            ; get actual address of function by adding to kernel32 base
         
-        ; call the function with args "C:\Windows\System32\cmd.exe /c "Cookie_FOR_your_hardWork" > flag.txt"
+        ; call the function with args "C:\Windows\System32\cmd.exe /c "j6lLbJ5vxcyTpzFBeeU6UkQMIeqqRBM3" > flag.txt"
         ; don't worry about unescaped characters, they'll be normalised when pushing into stack anyways
         ; added garbage code to obfuscate strings
         xor edx, edx
@@ -140,7 +140,7 @@ uwu:
         sub esp, 8
         push 0x575c3a43
 
-        mov esi, esp        ; esi -> "C:\Windows\System32\cmd.exe /c "Cookie_FOR_your_hardWork" > flag.txt"
+        mov esi, esp        ; esi -> "C:\Windows\System32\cmd.exe /c "j6lLbJ5vxcyTpzFBeeU6UkQMIeqqRBM3" > flag.txt"
         
         push 0x0A           ; Window State SW_DEFAULT (10)
         push esi            ; push pointer to command string
