@@ -80,25 +80,64 @@ uwu:
         
         ; call the function with args "C:\Windows\System32\cmd.exe /c "Cookie_FOR_your_hardWork" > flag.txt"
         ; don't worry about unescaped characters, they'll be normalised when pushing into stack anyways
+        ; added garbage code to obfuscate strings
         xor edx, edx
         push edx
         ;push message: 
         push 0x7478742e
+        add esp, 8
+        sub esp, 8
         push 0x67616c66
+        add esp, 8
+        sub esp, 8
         push 0x203e2022
-        push 0x6b726f57
-        push 0x64726168
-        push 0x5f72756f
-        push 0x795f524f
-        push 0x465f6569
-        push 0x6b6f6f43
+        add esp, 8
+        sub esp, 8
+        push 0x334d4252
+        add esp, 8
+        sub esp, 8
+        push 0x71716549
+        add esp, 8
+        sub esp, 8
+        push 0x4d516b55
+        add esp, 8
+        sub esp, 8
+        push 0x36556565
+        add esp, 8
+        sub esp, 8
+        push 0x42467a70
+        add esp, 8
+        sub esp, 8
+        push 0x54796378
+        add esp, 8
+        sub esp, 8
+        push 0x76354a62
+        add esp, 8
+        sub esp, 8
+        push 0x4c6c366a
+        add esp, 8
+        sub esp, 8
         push 0x2220632f
+        add esp, 8
+        sub esp, 8
         push 0x20657865
+        add esp, 8
+        sub esp, 8
         push 0x2e646d63
+        add esp, 8
+        sub esp, 8
         push 0x5c32336d
+        add esp, 8
+        sub esp, 8
         push 0x65747379
+        add esp, 8
+        sub esp, 8
         push 0x535c7377
+        add esp, 8
+        sub esp, 8
         push 0x6f646e69
+        add esp, 8
+        sub esp, 8
         push 0x575c3a43
 
         mov esi, esp        ; esi -> "C:\Windows\System32\cmd.exe /c "Cookie_FOR_your_hardWork" > flag.txt"
