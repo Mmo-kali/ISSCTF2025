@@ -9,6 +9,8 @@ Maybe look at the headers
 ------------------------------------------
 ------------------------------------------
 Secondary hint in second executable
+------------------------------------------
+------------------------------------------
 Hint 3
 -----------
 Look for unusual or unexplored code paths that might contain the hidden function.
