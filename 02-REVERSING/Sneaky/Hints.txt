@@ -2,6 +2,10 @@ Hint1
 -----------
 You'll learn more when you run this (and maybe you'll end up being lucky),
 Pay attention to the conditions under which the exe behaves differently.
+
+Hint2
+-----------
+Maybe look at the headers
 ------------------------------------------
 ------------------------------------------
 Secondary hint in second executable
