@@ -2,3 +2,4 @@
 > find the condition for creation of second stage file (x = 4) (either in debugging or by unpacking the binary with UPX)
 > get the second file and find the function which was not called ("__"), grab the address and patch the binary to call it.
 > get the flag in the flag.txt
+> decode the flag with base62
