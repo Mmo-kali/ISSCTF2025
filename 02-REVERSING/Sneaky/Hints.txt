@@ -8,3 +8,7 @@ Secondary hint in second executable
 Hint 3
 -----------
 Look for unusual or unexplored code paths that might contain the hidden function.
+
+Hint 4
+-----------
+The error margin in the name of encoding would be of about ±2
