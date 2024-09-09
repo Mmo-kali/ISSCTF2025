@@ -1,0 +1,5 @@
+The Gist:
+- User given an email exchange
+- Maybe hints within the email (link to a flickr possibly)
+- User needs to get the google id from the email
+- User can use google id to find a google maps review
