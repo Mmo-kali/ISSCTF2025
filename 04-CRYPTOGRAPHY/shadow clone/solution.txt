@@ -1,0 +1,24 @@
+Orlando,Michael, Prajwal.
+
+DESCRIPTION: 
+
+Not everything that glitters is gold. Sometimes, appearances can be deceiving.
+There are many imitations that look just like the real thing but aren’t.
+Agent, you must be certain of what you’re doing and ensure that what you’re seeing is genuine. It could be a fake, or it could be real!!!.
+
+Hint: It may be base64 but it may not be decoded with the basic base64.
+
+
+
+
+THIS IS THE FLAg:
+
+SometimesItL00kslikesomething_BUT_evenRealityitsaLi3
+
+
+ITS LZ string base64 compressed.
+then its base64
+then its base32
+
+This is what the user gets
+KRLTS3DEGNJG4Y2HMRGVUMTYO5JEKOKDKNVXIQSXNNDEKURSMN4GI22GJ5QWYUSGJ5CFC52RKVNHCUKVNBNFERZRIJFTEZCGKNKU46CRKV2DAVLLIZEE4RSSOJIWW5CGKFLWQ5LCIVDEMT2GNRLFUVKSGRKVQZCCMVVVMQSQKQYD2===
