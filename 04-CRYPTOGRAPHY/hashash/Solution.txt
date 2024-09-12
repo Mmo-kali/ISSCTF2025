@@ -1,0 +1,22 @@
+Orlando, Michael
+https://emn178.github.io/online-tools/keccak_256.html
+
+
+Description
+
+Hello Agent, We managed to get this secret file with some hases inside we don't seem to know what to do with them.
+We think you can figure it out. Once you have the passwords in plaintext concatenate them with a _ and use SHA244 before
+you send it back to us as the flag. Make sure to know what type of hash it is or you'll never get it. Good luck!!
+
+
+
+
+zxcasdqwe123	28ea7590761886ddb29fa2bf43de462621e2b8ba34ad8deca2a78b666955e7ca		Keccak-256
+
+tottenham	$2a$10$SwSkwcTTUl5Z8gzz1FQlcevi4Hi6ZJ9gDFacWjUwu3O0MluM23Sr.			bcrypt
+
+They must go on hashcat and identify the hashes, break them, and then mix them with a _ and use SHA224 on the broken password
+
+Final flag is 
+
+ba41a5ae343f36e503c25901635656e57363f5018bd2ee29906f42c2
