@@ -1,0 +1,20 @@
+Look at the flow of the disassembled binary, and you'll find that there is a comparison with '2' which leads to a block where stuff like 'GetCurrentProcessId', 'OpenProcess', 'WriteProcessMemory' is being called.
+
+Safe assumption that it means on the third run it'll execute that (you'll need to have run the binary initially before disassembly)
+
+Run twice and you'll arrive to 'GetCurrentProcessId', go step by step until you find 'WriteProcessMemory'
+
+Look at the documentation, it says the args for 'WriteProcessMemory' are as follows: 
+BOOL WriteProcessMemory(
+  [in]  HANDLE  hProcess,
+  [in]  LPVOID  lpBaseAddress,
+  [in]  LPCVOID lpBuffer,
+  [in]  SIZE_T  nSize,
+  [out] SIZE_T  *lpNumberOfBytesWritten
+);
+
+They will be in that order in the stack, pull the 'lpbuffer' as that is the flag
+
+Base64 decode it and then reverse the string, you'll get the corrected flag
+
+HIdd3n_M3mory

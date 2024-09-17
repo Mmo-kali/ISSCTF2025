@@ -1,0 +1,11 @@
+
+Hint 1:
+Look at the language its written in, and there is a common characteristic with main functions written in that language.
+
+-----Unlocked Later
+Hint 2:
+A good idea would be to run it in a Windows VM with ASLR turned off for convenience.
+
+-----Last Unlock (only needed if unsolved)
+Hint 3:
+Look at the documentation of the Windows syscalls you come across.
