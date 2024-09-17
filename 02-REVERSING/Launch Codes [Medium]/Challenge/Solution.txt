@@ -1,0 +1,13 @@
+Trial Run binary to see what it actually does
+
+Open Binary in a disassembler (Cutter, IDA, etc.) and look for "readLine" call as it is only reading user input once
+
+Place a breakpoint at that at "readLine" and then look how the flow goes.
+
+you'll come across a call for "chk", its return value is stored in eax which is moved somewhere right after
+
+step into chk and continue on till you come across the an instance of string comparison (eqstring), flip the ZF there before jmp
+
+you'll have the flag decoded.
+
+S3COND_S7RIKE
