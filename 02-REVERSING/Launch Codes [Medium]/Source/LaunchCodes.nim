@@ -130,9 +130,9 @@ proc de (i: seq[char]) : seq[char] =
 
 
 proc chk (i: string) : int =
-    const o = "d6da551d6e5b40c2f61f49174d657"
-    const o1 = "9b718b37958f35f"
-    const o2 = "874e780cd7bd08979c89"
+    const o = "D6DA551D6E5B40C2F61F49174D657"
+    const o1 = "9B718B37958F35F"
+    const o2 = "874E780CD7BD08979C89"
     const ox = o1 & o2 & o
     const f = "CBD745BB1124E89A90DF0DC740F5E9081C4AC90DDE949047852F6F7598E94028"
     var s =  "ICBM" & "Guid" & "Sys"
