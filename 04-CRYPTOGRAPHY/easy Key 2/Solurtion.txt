@@ -1,0 +1,26 @@
+ORLANDO, Michael, Prajwal
+
+Simple challenge, not much security knowledge needed. It just a bunch of white space. if they search whitespace they will find it.
+
+The Description:
+
+is it tricky I don't know if it could be but it could also be easy.
+
+
+There are countless places where the hidden information could be lurking. 
+Don’t forget to thoroughly explore your surroundings. Remember, the internet is a vast expanse with numerous pages where anything can be concealed,
+and you might never stumble upon it. This isn’t a cryptographic puzzle;
+it’s a straightforward challenge. You just need to know where to look, and you’ll see how everything comes to light.																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+Keep in mind, as a shadowhacker, your skills in reconnaissance and open-source intelligence (OSINT) will be crucial. 
+Utilize your knowledge of web security, penetration testing, and ethical hacking to navigate through the layers of the internet.
+Whether it’s hidden in plain sight or buried deep within the code, your persistence and keen eye will be your greatest assets																																																																																																																																																																																																																																															
+Or you know this could all be a fake and there is nothing to find on the internet, use your intuition to figure it out. :)	
+
+
+
+The solution to this is in plaintext hidden at the very right.
+All they have to do is go to the very right of the file and look at it.
+But we put some distractions around.
+
+Flag:
+itwas_hidden_in_plain_site2024

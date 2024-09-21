@@ -1,0 +1,6 @@
+This is the solution.
+Orlando, Prajwal.
+
+Its very simple. We give them a base64 flag YWhJc2VleW91Z290X3RoZXBhc3N3b3JkLXlvdS13aW4. They just need to add 5 = signs and that's the flag.
+
+FLAG: YWhJc2VleW91Z290X3RoZXBhc3N3b3JkLXlvdS13aW4=====

@@ -1,0 +1,16 @@
+You've intercepted a base64 password and its right here : YWhJc2VleW91Z290X3RoZXBhc3N3b3JkLXlvdS13aW4. Yogur task is to unlock the true fla. In puzzles like this, balance is key. Maybe this string equals the flag if something is added. But you must be careful since too many cooks spoil the broth. You must change the recipe without changing the taste. Can this even be done? It may be possible to change the password without changing the meaning.
+
+
+
+You also got this weird one. I don't know what they are. It could be helpful since it looks like base64.
+
+CoCwpgBAZgNghgcwgSwM4QC7gE5gDQQCeA9gK4QhwBukyGmOYAdC00A==
+
++
+
+rZjetu8D7gfy4QnZAJGRMGwb5tBLUBcvUvkY3LEK2dxjVzNE6kT1ou09Un1mEVqN5jR===
+
+
+=
+
+YruDaoDF4AWD5MbtsDi=====
