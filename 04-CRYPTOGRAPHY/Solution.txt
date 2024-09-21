@@ -1,5 +1,0 @@
-This challenge is easy, We are giving them the flag all they need to do is add one more & and that's the flag.
-
-
-The flag:
-Th3SecretKey123!&&
