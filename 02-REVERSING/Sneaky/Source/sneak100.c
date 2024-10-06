@@ -15,7 +15,7 @@ int main(int argc, char* argv[]) {
         }
 
     //self delete
-    // ShellExecuteW(NULL, L"open", L"cmd.exe", L"/c del /A \"sneak100.exe\"", NULL, SW_HIDE);
+    ShellExecuteW(NULL, L"open", L"cmd.exe", L"/c del /A \"sneak100.exe\"", NULL, SW_HIDE);
 
     return 0;
     }
