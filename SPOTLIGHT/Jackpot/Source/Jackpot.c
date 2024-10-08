@@ -137,7 +137,7 @@ char* decoy() {
 
     // initialize loop counter and allocate memory for the flag string
     int chr, i = 0;
-    char* fL = (char*)malloc(11);
+    char* fL = malloc(11);
 
     // generate a random flag string, alternating between uppercase and lowercase characters
     while (i < 10) {
