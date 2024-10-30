@@ -1,0 +1,26 @@
+------ CHAT LOGGED ON NON-ENCRYPTED CHANNEL L3K4 ------
+
+[2024-09-21 00:02:12] <Snakerifle> Yo guys are you here? I think I found something weird
+[2024-09-21 00:02:25] <Kendricklamar> WHAT NOW
+[2024-09-21 00:02:39] <Snakerifle> I’m pretty sure someone has access to our non-encrypted channels
+[2024-09-21 00:02:52] <d@rius> wtf how do you know
+[2024-09-21 00:03:01] <Snakerifle> Well, I have the chat channels changed and destructed after 45 minutes when we all log out but I just checked out previous ones 5 minutes before they got destroyed and they weren’t there
+[2024-09-21 00:03:18] <oliberb> ???????
+[2024-09-21 00:03:35] <Jtow> okay dumbass are you sure you didn’t set it for a different time
+[2024-09-21 00:03:45] <Kendricklamar> Yeah it could just be a memory failure or something
+[2024-09-21 00:04:02] <Snakerifle> No no it wouldn’t happen like that 
+[2024-09-21 00:04:25] <d@rius> Okay well let’s just be precautious – the non-encrypted channels are easier to talk on but that can literally mess up everything we’ve planned years for
+[2024-09-21 00:04:40] <Snakerifle> Yeah from now on, just be more careful about what we talk about on the non-encrypted channels
+[2024-09-21 00:04:58] <Kendricklamar> Any idea who it could be?
+[2024-09-21 00:05:12] <Snakerifle> I don’t know – checked the access logs, checked the network, checked login attempts – saw absolutely nothing
+[2024-09-21 00:05:25] <d@rius> Jesus christ...
+[2024-09-21 00:05:38] <oliberb> Does that mean that they’ll have all of our previous chats?
+[2024-09-21 00:05:55] <Snakerifle> I don’t know
+[2024-09-21 00:06:10] <Kendricklamar> Shit
+[2024-09-21 00:06:28] <oliberb> What about the encrypted channels?
+[2024-09-21 00:07:00] <Snakerifle> Same protocol – they get deleted after 45 minutes but they’re deadass encrypted so I wouldn’t worry about it
+[2024-09-21 00:07:18] <Jtow> I don’t know man last time you said that we almost got caught
+[2024-09-21 00:07:35] <d@rius> yeah I remember the last time you said that you lost all your money in GME :sob:
+[2024-09-21 00:08:10] <Snakerifle> K
+[2024-09-21 00:08:15] <Snakerifle> Anyways, just letting you guys know – be more careful
+[2024-09-21 00:08:55] <Kendricklamar> you heard the man
