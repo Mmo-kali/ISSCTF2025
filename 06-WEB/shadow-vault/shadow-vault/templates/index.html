@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Crypt Wallet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .coin-widget {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Crypt Wallet!</h1>
+        <h3>Hello, {{ user }}! You're logged in.</h3>
+        <div class="button-container">
+        
+            <form action="/login" method="get">
+                <a href="http://127.0.0.1:5000/Login" class="btn btn-primary"><button type="submit">Login</button></a>
+            </form>
+        </div>
+        <div class="coin-widget">
+            <script src="https://widgets.coingecko.com/coingecko-coin-market-ticker-list-widget.js"></script>
+            <coingecko-coin-market-ticker-list-widget  coin-id="bitcoin" currency="usd" locale="en"></coingecko-coin-market-ticker-list-widget>
+        </div>
+    </div>
+</body>
+</html>
