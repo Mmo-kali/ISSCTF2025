@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, send_file
+from flasgger import Swagger
 import csv
 import os
 
@@ -6,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/apiV1-usr', methods=['GET', 'POST'])
+@app.route('/api/v1/usr', methods=['GET', 'POST'])
 def read_csv():
     script_dir = os.path.dirname(__file__)  # Gets the directory where the script is located
     directory_path = os.path.join(script_dir, 'apiDirectory')  # Correctly builds the path
@@ -64,5 +65,14 @@ def read_csv():
                     return jsonify(row)
         return jsonify({"error": "Region ID not found"}), 404
 
+directory_path = 'apiDirectory'
+@app.route('/api/v1/_docs', methods=['GET'])
+def api_docs():
+    file_path = os.path.join(directory_path, 'swagger.yaml')
+    if os.path.exists(file_path):
+        return send_file(file_path, as_attachment=True)
+    else:
+        return jsonify({"error": "File not found"}), 404
+
 if __name__ == '__main__':
-    app.run(debug=True, port=8000) # specify the port number here
+    app.run(debug=True, host='0.0.0.0', port=8000) # specify the port number here
