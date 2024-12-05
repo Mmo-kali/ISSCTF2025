@@ -1,0 +1,22 @@
+﻿attempts: 0
+author: Jack B
+category: OSINT
+description: We've identified Wilford Von Bugsy at the Black Hat Bureau as someone with bad opsec. Investigate him and see if you can find a flag.
+extra:
+  decay: 30
+  initial: 100
+  minimum: 30
+flags:
+- bhbureauCTF{w1th_th3_blu3_ch33s3}
+hints:
+- content: 
+  cost: 0
+name: Google Sus
+requirements:
+- He uses gmail. Interesting.
+state: visible
+tags:
+- hard
+type: dynamic
+value: 100
+version: '0.1'
