@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer {
+            margin-top: 20px;
+            color: #888;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request Example</title>
+</head>
+<body>
+    <h1>Region Data Request</h1>
+    <form id="regionForm">
+        <label for="RegionID">Enter Region ID:</label>
+        <input type="text" id="RegionID" name="RegionID">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="responseArea">Response will appear here...</div>
+
+    <script>
+        document.getElementById('regionForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting in the traditional way
+            const regionID = document.getElementById('RegionID').value;
+            const data = { RegionID: regionID };
+
+            fetch('http://127.0.0.1:8000/apiV1-usr', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Success:', data);
+                document.getElementById('responseArea').textContent = JSON.stringify(data, null, 2);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                document.getElementById('responseArea').textContent = 'Error: ' + error.toString();
+            });
+        });
+    </script>
+</body>
+</html>
