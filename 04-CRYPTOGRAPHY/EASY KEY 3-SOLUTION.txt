@@ -5,7 +5,7 @@ They could potentially use this tool but we wanted to crash any tools they tried
 https://www.text-filter.com/Remove-Specific-Certain-Characters-From-Text-Remove-Delete-Numbers-Remove-Delete-Letters-Removing-Certain-Non-Alphanumeric-Characters-From-Text-Excel-Online.htm
 
 
-The flag is : t0_a_hack3r_n0thing_is-ev3r-h1dd3nright
+The flag is : bhbureauCTF{t0_a_hack3r_n0thing_is-ev3r-h1dd3nright}
 
 they get the file.We want them to use programming, it doesn't have to be too difficult but they will have to process some info.
 
