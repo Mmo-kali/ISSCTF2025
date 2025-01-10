@@ -1,0 +1,25 @@
+
+
+Description:
+John prides himself on his cybersecurity expertise. He boasts about having a "very secure password" and is quick to point out flaws in others' setups. Recently, he sent us a picture of his keyboard, claiming it’s a pristine example of security-conscious hardware.
+
+But there’s a twist: John missed something important. While examining the photo, we noticed a subtle detail he overlooked. Knowing that John loves to have things in alphabetical order and is a stickler for the saying "height matters," we suspect his password might not be as secure as he claims.John also loves the number 3 he always says he repeats things 3 times just to be sure.
+
+
+
+
+
+
+CHALLENGE.
+
+The user just has to look at which row is higher and in that row which keys are worn out and which one has the first order
+in the alphabet.
+
+They will get:
+
+$4QRYAFHLNZ
+
+Repeat it 3 times and thats the flag.
+
+FLAG:$4QRYAFHLNZ$4QRYAFHLNZ$4QRYAFHLNZ
+
