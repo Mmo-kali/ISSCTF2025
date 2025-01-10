@@ -1,0 +1,3 @@
+We have recovered a disk image from an employee who went rogue within the organization. There will be a series of challenges to solve, helping you uncover valuable information and clues to solve the mystery.
+
+Your first challenge starts here: Download the disk image and begin your forensic analysis. Good luck!

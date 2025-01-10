@@ -1,0 +1,11 @@
+Solution:
+
+Mount the Disk Image: First, mount the disk image you recovered to access its contents. You can use tools like Autopsy or FTK Imager to mount the disk image and explore it.
+
+Navigate to the User Directory: Once the disk image is mounted, go to the user directory for Alice. This can typically be found under /Users/Alice/ or C:\Users\Alice\.
+
+Go to Alice's Desktop: On Alice's user folder, navigate to the Desktop folder.
+
+Locate the Flag: The flag is located on Alice's Desktop. Look for a file that contains the flag in the format FLAG{...}.
+
+Flag: Deep_Freeze_The_Evidence_2024

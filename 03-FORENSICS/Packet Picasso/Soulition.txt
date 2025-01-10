@@ -1,0 +1,1 @@
+Open .pcap in wireshark, hit file, hit export objects, export HTTP traffic objects you should see a image with flag. 

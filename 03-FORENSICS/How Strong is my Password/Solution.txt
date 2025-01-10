@@ -1,0 +1,18 @@
+Here's an explanation of how to solve the challenge:
+FLAG: Unlock1ng_Th3_Scr33nsh0t_S3cr3ts
+---
+
+**Challenge Solution:**
+
+1. **Locate the File:**
+   - The first step is to find the file in question on the disk image. You need to navigate to the **Users** directory, then go to **Desktop > script > testData**. Inside the **testData** folder, you will find the file named **importantData**. This file is likely password-protected, and your task is to extract the password to open it.
+
+2. **Find the Password:**
+   - The password for the **importantData** file is hidden within a screenshot taken by the user. The user was interacting with an **online password strength tester**. The screenshot shows the user entering their password into the tool, revealing the password that was used to protect the **importantData** file.
+
+3. **Access the File:**
+   - Once you find the screenshot containing the password, you can use it to unlock the **importantData** file.
+
+---
+
+This step-by-step solution guides participants in locating the file and the hidden password within the screenshot. Let me know if you need any further details or adjustments!

@@ -1,0 +1,2 @@
+There is important data residing on this disk image that is possibly password-protected. This file was regularly accessed by the rogue agent.
+
