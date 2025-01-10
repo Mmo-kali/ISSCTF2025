@@ -1,0 +1,18 @@
+Orlando, Michael, Prajwal.
+
+They could potentially use this tool but we wanted to crash any tools they tried to use so we made it very big.
+
+https://www.text-filter.com/Remove-Specific-Certain-Characters-From-Text-Remove-Delete-Numbers-Remove-Delete-Letters-Removing-Certain-Non-Alphanumeric-Characters-From-Text-Excel-Online.htm
+
+
+The flag is : t0_a_hack3r_n0thing_is-ev3r-h1dd3nright
+
+they get the file.We want them to use programming, it doesn't have to be too difficult but they will have to process some info.
+
+There are a few ways of doing this. The easiest and most efficient is for them to change all symbols for spaces
+then change all words with less than 5 characters with spaces, and then get only words that contain dd or dD or DD or Dd. 
+Lastly, organize words from biggest to smallest since we said "it contains some substance" meaning its one of the biggest.
+
+
+The description is: 
+Agent, we've intercepted a string hidden deep within the noise, and we're confident it’s encoded in base64. We suspect it should contain valuable intel. It’s not something you’ll overlook easily; let’s just say it won’t disappear in the blink of an eye. It's not something that will slip by unnoticed—let’s just say it’s got some substance to it.It stands out once you find it :). Oh, and we know it contains the letters dd... or was it DD? Could be dD or even Dd. Either way, it’s in there. Extract the string, decode it, and discover what it’s hiding. We tried to find it with chatgpt but it wasn't really successful. They must have done something to it. I expect you to know what tools you have at your disposal since you are the superbesthackerman. Best of luck! you'll need it. If you take the smart route it shouldn't take you long but if you get lazy you'll suffer.
