@@ -1,0 +1,18 @@
+Orlando, Michael
+
+UVd4d2Vyd3JoWkdScGJqcFBjR2FzYWZnVnVVMlZ6WVdhc3FwZWZqZWFzMWw9PQ==
+
+
+The user gets the string above.
+
+
+
+Its base64 so when they decode it they get 
+
+QWxwerwrhZGRpbjpPcGasafgVuU2VzYWasqpefjeas1l==
+
+
+This string looks like a fake base64 but its actually the flag. very simple challenge.
+
+
+FLAG: QWxwerwrhZGRpbjpPcGasafgVuU2VzYWasqpefjeas1l==
