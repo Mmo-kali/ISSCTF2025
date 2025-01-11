@@ -1,0 +1,3 @@
+A rogue agent was suspected of transferring sensitive data. Despite thorough investigation, no trace of the transfer could be found. Your task is to uncover the hidden trail and identify the devices involved.
+
+Hint: It's in the name.

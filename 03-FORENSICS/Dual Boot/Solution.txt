@@ -1,0 +1,3 @@
+Open the disk image in Autopsy(ON WINDOWS) look the the USB ATTACHED DEVICE THERE WILL BE A DEVICE WITH THE NAME that is the flag 
+
+FLAG: bhbureauCTF{b001-T0-R$%T}
