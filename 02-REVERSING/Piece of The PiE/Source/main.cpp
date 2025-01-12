@@ -5,6 +5,8 @@
 #include <processthreadsapi.h>
 #include <string>
 
+// g++ -static -static-libgcc -static-libstdc++ -o calculator main.cpp operations.cpp -lkernel32 -luser32
+
 int main() {
     int x = 0;
     std::cout << "+++++++++++++++++++++++++++++++++++++++++++++++" << std::endl;
