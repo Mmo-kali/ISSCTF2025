@@ -1,0 +1,7 @@
+Challenge Description:
+A mysterious binary has been provided, and your task is to uncover the hidden flag. 
+The program seems to have a verification mechanism in place, but something about it feels... bypassable.
+Use your reverse engineering skills to break the key check and extract the flag.
+
+
+Hint: The binary hides the flag, but you'll need to bypass the key check to reveal it. Use your understanding of assembly and the provided instructions to find and patch the check. Good luck!
