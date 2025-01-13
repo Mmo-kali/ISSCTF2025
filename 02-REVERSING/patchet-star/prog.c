@@ -26,7 +26,7 @@ int check_key_stage2(const char *key) {
 }
 
 int check_key(const char *key) {
-    char obfuscated_key[] = { 'S', 'H', 'A', 'D', 'O', 'W', 'C', 'T', 'F', '\0' };
+    char obfuscated_key[] = { 'S', 'H', 'A', 'D', 'O', 'W', 'P', 'A', 'T', 'C', 'H', '\0' };
     for (int i = 0; i < strlen(obfuscated_key); i++) {
         obfuscated_key[i] ^= 0x5A; // XOR with a constant
     }
