@@ -88,7 +88,7 @@ def create_account():
             
         
             # Clean the username of null character representations
-            username = re.sub(r' ', '$', username)
+            #username = re.sub(r' ', '', username)
             username = re.sub(r'(\x00|\0|%00|\u0000|\x20|\+|&#0;|&#x0;|0x00|0x0000|0x00000000|0x00000000)', '$', username)
             print("AFTER subbed:"+username + ";")
         
@@ -100,7 +100,7 @@ def create_account():
             cleaned_username = username[:28]
             print("AFTER STRIPPED:"+ cleaned_username + ";")
 
-            if username == '               administrator':
+            if username == '               administrator' or username == '$$$$$$$$$$$$$$$administrator': # reason i accept 
                 response = redirect('/admin')
                 response.set_cookie('shadow', 'MichaelCompanioni1')
                 return response
