@@ -1,5 +1,0 @@
-Hello, Agent. We've identified a vulnerability in the website, specifically with user creation. It seems there's a way to bypass the system. The previous super-secret shadow agent uncovered something related to truncation, but they couldn’t provide much detail. I’m confident you’re the right person for this mission—you’re the one who can exploit it.
-
-The truth is, we need to access privileged information, and only you have the skills to pull this off. Follow the $ signs. Doing so should lead you to the solution. One critical detail to keep in mind: there’s a discrepancy between the front-end and backend processing. While the front-end enforces character checks, the backend might simply interpret the data in its logical form. Also make sure to check for alerting of characters in the backend who knows maybe special characters get turned into something else.
-
-Good luck.
