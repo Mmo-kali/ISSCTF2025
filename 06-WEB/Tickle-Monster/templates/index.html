@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Broker's Lair</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: glow 1.5s infinite alternate;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            color: #fff;
+            background: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+            animation: slideIn 2s ease-in-out;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            animation: fadeIn 4s ease-in-out;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #007BFF, 0 0 20px #007BFF, 0 0 30px #007BFF, 0 0 40px #007BFF, 0 0 50px #007BFF, 0 0 60px #007BFF, 0 0 70px #007BFF; }
+            to { text-shadow: 0 0 20px #0056b3, 0 0 30px #0056b3, 0 0 40px #0056b3, 0 0 50px #0056b3, 0 0 60px #0056b3, 0 0 70px #0056b3, 0 0 80px #0056b3; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Shadow Broker's Lair</h1>
+        <p>This is a secure zone managed by the Shadow Broker. Access is restricted to authorized personnel only.</p>
+        <p>If you have found this page by mistake, please leave immediately.</p>
+        <a href="{{ url_for('account') }}" class="button">Go to Account</a>
+        <div class="footer">
+            <p>Black Hat Bureau &copy; ISSessionsCTF 2025</p>
+        </div>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+</body>
+</html>
