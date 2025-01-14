@@ -1,0 +1,6 @@
+
+Greetings, ShadowAgent. During our investigation, we intercepted a note exchanged between a developer and an employee. It reads:
+
+'I absolutely love APIs—they're so fascinating! I’ve set up the latest REST API, but it’s not quite what people usually expect, so I understand why you might struggle with it. Here’s a tip: try using some common endpoints. If you’re clever enough, you could leverage it to retrieve the file you need, as long as you know its exact name. Oh, and don’t worry about path traversal attacks—I’ve ensured that’s not an issue this time, even though my implementations have been prone to it in the past. Just remember, the file name must match exactly with the one in the system.'
+
+It seems the developer is confident in their security measures, but there’s likely a way to retrieve the file if you can figure out the API’s quirks. Your challenge is to access the file flag.txt Good luck!

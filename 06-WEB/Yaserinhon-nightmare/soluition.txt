@@ -1,0 +1,9 @@
+Orlando, Michael 
+
+submit this base64 encoded username admin'-- 
+
+base64-> YWRtaW4nIC0t
+
+since it is base64 encoded it passes the applicaiton check for speacial characters and sql injection 
+
+Flag: bhbureauCTF{b@se64_3nc0d1ng_4v01ds_WAF}

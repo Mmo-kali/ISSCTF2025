@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - Shadow Broker's Lair</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h1 {
+            color: #007BFF;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: glow 1.5s infinite alternate;
+        }
+        p {
+            margin: 15px 0;
+            font-size: 1.2em;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .footer {
+            margin-top: 20px;
+            color: #666;
+            font-size: 0.9em;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            animation: slideIn 2s ease-in-out;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            width: 80%;
+            font-size: 1em;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            transition: background 0.3s ease;
+            animation: slideIn 2s ease-in-out;
+        }
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #007BFF, 0 0 20px #007BFF, 0 0 30px #007BFF, 0 0 40px #007BFF; }
+            to { text-shadow: 0 0 20px #0056b3, 0 0 30px #0056b3, 0 0 40px #0056b3, 0 0 50px #0056b3; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Account</h1>
+        {% if error %}
+        <p style="color: red;">{{ error }}</p>
+        {% endif %}
+        <p>Please fill in the form to create an account.</p>
+        <form method="post">
+            <input type="text" name="username" placeholder="Username"><br>
+            <input type="password" name="password" placeholder="Password"><br>
+            <input type="submit" value="Create Account">
+        </form>
+        <a href="{{ url_for('login') }}" class="button">Back to Login</a>
+    </div>
+</body>
+</html>

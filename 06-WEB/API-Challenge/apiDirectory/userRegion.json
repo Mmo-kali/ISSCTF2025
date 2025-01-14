@@ -1,0 +1,82 @@
+[
+  {
+    "RegionID": "1",
+    "Name": "RegionA",
+    "Population": 100000,
+    "Area": 5000,
+    "GDP": 20000,
+    "Languages": ["English", "Spanish"]
+  },
+  {
+    "RegionID": "2",
+    "Name": "RegionB",
+    "Population": 200000,
+    "Area": 7000,
+    "GDP": 30000,
+    "Languages": ["French", "German"]
+  },
+  {
+    "RegionID": "3",
+    "Name": "RegionC",
+    "Population": 150000,
+    "Area": 6000,
+    "GDP": 25000,
+    "Languages": ["Chinese", "Japanese"]
+  },
+  {
+    "RegionID": "4",
+    "Name": "RegionD",
+    "Population": 120000,
+    "Area": 5500,
+    "GDP": 22000,
+    "Languages": ["Russian", "Italian"]
+  },
+  {
+    "RegionID": "5",
+    "Name": "RegionE",
+    "Population": 180000,
+    "Area": 6500,
+    "GDP": 28000,
+    "Languages": ["Portuguese", "Arabic"]
+  },
+  {
+    "RegionID": "6",
+    "Name": "RegionF",
+    "Population": 130000,
+    "Area": 5200,
+    "GDP": 21000,
+    "Languages": ["Hindi", "Bengali"]
+  },
+  {
+    "RegionID": "7",
+    "Name": "RegionG",
+    "Population": 170000,
+    "Area": 6800,
+    "GDP": 27000,
+    "Languages": ["Korean", "Vietnamese"]
+  },
+  {
+    "RegionID": "8",
+    "Name": "RegionH",
+    "Population": 140000,
+    "Area": 5600,
+    "GDP": 23000,
+    "Languages": ["Turkish", "Persian"]
+  },
+  {
+    "RegionID": "9",
+    "Name": "RegionI",
+    "Population": 160000,
+    "Area": 6300,
+    "GDP": 26000,
+    "Languages": ["Dutch", "Swedish"]
+  },
+  {
+    "RegionID": "10",
+    "Name": "RegionJ",
+    "Population": 110000,
+    "Area": 5100,
+    "GDP": 19000,
+    "Languages": ["Greek", "Hebrew"]
+  }
+]
