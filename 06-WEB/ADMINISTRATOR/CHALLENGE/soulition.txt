@@ -7,7 +7,7 @@ ________________________________________________________________________
 
 ORLANDO and MICHAEL 
 
-
+FLAG: bhbureauCTF{Trunc4t3d_Fl4g_} 
 
 truncating after 12 characters only the admin can access the /admin page 
 
