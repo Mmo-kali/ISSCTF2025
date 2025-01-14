@@ -1,4 +1,0 @@
-
-
-Challenge Description:
-Your mission, should you choose to accept it, is to identify and exploit a flaw in the username validation mechanism of a web application.
