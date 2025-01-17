@@ -1,0 +1,13 @@
+
+
+Description:
+Our intelligence suggests that Decepticons have hidden crucial Autobot data within a seemingly innocent Transformers fan website. The site appears to be a normal blog dedicated to our metallic friends, but we suspect there's more than meets the eye.
+
+Your Mission:
+Explore the Transformers fan site and locate the hidden Autobot archives. Megatron's forces aren't always the best at securing their secrets - there might be clues in plain sight if you know where to look.
+
+Difficulty: Easy
+Category: Web
+Points: 100
+
+Note: No bruteforcing or scanning is required for this challenge. The answer lies within standard web practices.

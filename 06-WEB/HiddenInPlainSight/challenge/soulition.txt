@@ -1,0 +1,3 @@
+go to the home page of site look for HTML comments get the flag...
+
+FLAG:  bhbureauCTF{L00k-4-C0mm3Nts}

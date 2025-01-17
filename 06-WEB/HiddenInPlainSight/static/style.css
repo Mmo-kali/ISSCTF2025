@@ -1,0 +1,86 @@
+body {
+    background-color: #000000;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #00FF00;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background: #00FF00;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+.container {
+    padding: 20px;
+}
+
+button {
+    background-color: #00FF00;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #00FF00;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #00FF00;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border: 1px solid #FFFFFF;
+}
+
+footer {
+    background: #00FF00;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

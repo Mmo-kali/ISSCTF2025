@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #2c2c2c;
+        }
+
+        .login-box {
+            background-color: #3a3a3a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00FF00;
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-box h1 {
+            margin-bottom: 20px;
+            color: #00FF00;
+        }
+
+        .login-box label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #00FF00;
+        }
+
+        .login-box input[type="text"], .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #00FF00;
+            border-radius: 5px;
+            background-color: #2c2c2c;
+            color: #00FF00;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #00FF00;
+            color: #2c2c2c;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-box button:hover {
+            background-color: #00cc00;
+        }
+
+        .error-message {
+            color: red;
+            margin-bottom: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Login</h1>
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    <div class="error-message">
+                        {{ messages[0] }}
+                    </div>
+                {% endif %}
+            {% endwith %}
+            <form action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
