@@ -1,0 +1,6 @@
+Shadow Agent, We Need Your Help!
+Our organization has fallen victim to a network insertion attack. Sensitive data was exfiltrated from our network while evading our intrusion detection system (IDS).
+
+We need you to analyze our network traffic and identify any unusual data in protocols where it shouldn't belong.
+
+Please act quickly! Time is of the essence!
