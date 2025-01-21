@@ -1,2 +1,4 @@
 Operative, we have gotten our hands on a top secret application which is rumoured to contain an active launch code for one of the cold war era ICBMs.
-We would like you to recover the active code from this application before anyone else gets their hands on it.
+Intelligence suggests that the program verifies an ID related to historic military technology, but all further details are classified.
+
+We would like you to recover the active code from this application before the bureau gets their hands on it.
