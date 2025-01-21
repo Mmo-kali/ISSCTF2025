@@ -1,0 +1,7 @@
+- there is a check for debug in beginning, might take few debug runs to get past that
+- once past it you should be able to see a loop taking input, that loop would then call a function
+- inside that function is where you would find two arrays, one of 256 bytes another of 0x42 (66) that is the one you need to over flow
+- the loop below it would go for exactly one over the array's last character (if you are in the actual loop)
+- basically give it exactly 66 characters and it will give you the flag
+
+{0ne5tepAh3ad}

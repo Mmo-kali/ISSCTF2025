@@ -1,0 +1,6 @@
+[Medium]
+
+Our intelligence has intercepted a rogue program in our power grid systems believed to be the work of the Black Hat Bureau. This program appears innocuous but contains a hidden vulnerability that could compromise critical systems if exploited. Your task is to expose the Bureau's plans before they can strike us.
+
+You'll need to push the limits of your skills to reveal the Bureau's secrets. Good Luck Operative 
+
