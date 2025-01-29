@@ -1,0 +1,11 @@
+Orlando, Michael 
+Challenge Details:
+1. File opens normally in Excel with dummy data
+2. Contains 2 hidden flags:
+   - Flag 1: In ZIP file comment metadata
+   - Flag 2: In embedded XML file within ZIP structure
+
+Solution Steps:
+a) Check file type: file Financial_Report.xlsx
+b) View ZIP comment: unzip -z Financial_Report.xlsx
+c) Extract and search: unzip Financial_Report.xlsx -d extracted && grep -r 'CTF{' extracted
