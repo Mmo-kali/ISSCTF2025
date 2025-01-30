@@ -1,0 +1,7 @@
+Orlando, michael
+FLAG:nbsjkhbakdiuyhuiefnj156415asdad1dw131adghyjuk45s8
+
+NTLM:6EB3829A7EE2A6A9CA4FE65C5F7EEE25
+BCRYPT: 15 rounds: $2a$15$YXSyfQLqa4870/2jWarK8uNRCGAEImr7EePvRTB5ZOU/KBzrAmMwW
+
+Solution: The flag is just there on the site.

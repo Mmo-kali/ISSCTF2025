@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Key 7</title>
+    <style>
+      body {
+        background-color: #000;
+        color: #0f0;
+        font-family: monospace;
+        position: relative;
+      }
+      .hidden {
+        display: none;
+      }
+      .fake {
+        opacity: 0.1;
+      }
+      div:nth-child(5) {
+        color: red;
+      }
+      .corner-hidden {
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        font-size: 8px;
+        color: #000;
+      }
+      .obvious-flag {
+        color: white;
+        font-size: 48px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20vh;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Easy Key 7</h1>
+    <p>Find the flag if you can!</p>
+
+    <div style="visibility: hidden">Nothing here.</div>
+    <span class="hidden">Hidden in plain sight?</span>
+    <script>
+      var fakeFlag = "This is not the flag.";
+    </script>
+
+    <div class="obvious-flag">
+      FLAG:HASH:$2a$15$YXSyfQLqa4870/2jWarK8uNRCGAEImr7EePvRTB5ZOU/KBzrAmMwW
+    </div>
+
+    <footer>
+      <article>
+        <aside>
+          <section>
+            <p style="color: transparent; user-select: none">
+              Nothing suspicious here.
+            </p>
+            <div class="corner-hidden">
+              <p class="fake">
+                nbsjkhbakdiuyhuiefnj156415asdad1dw131adghyjuk45s8
+              </p>
+              <p class="fake">Useless garbage: 1a2b3c4d5e6f</p>
+              <p class="fake">Nothing here: zxvcbnmasdfgh</p>
+              <p class="fake">Ignore this: qwerty09876</p>
+              <solvd>nbsjkhbakdiuyhuiefnj156415asdad1dw131adghyjuk45s8</solvd>
+            </div>
+          </section>
+        </aside>
+      </article>
+    </footer>
+  </body>
+</html>
