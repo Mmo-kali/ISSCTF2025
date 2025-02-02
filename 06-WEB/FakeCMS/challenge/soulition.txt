@@ -1,0 +1,35 @@
+Michael, Orlando 
+
+FakeCMS Challenge Solution
+-------------------------
+
+1. Enumerate Users:
+   - Visit /wp/v2/users
+   - Note down all usernames including 'umbra'
+
+2. Password Discovery:
+   - Find HTML comment in login page source code
+   - Reveals common WordPress passwords
+   - Test passwords against found usernames
+
+3. Initial Access:
+   - Login with:
+     username: umbra
+     password: P@ssw0rd
+
+4. Cookie Analysis:
+   - After login, inspect cookies
+   - Notice username=umbra cookie
+   - Notice loggedin=true cookie
+
+5. Cookie Manipulation:
+   - Modify cookies using browser dev tools:
+     Set username=admin
+     Set loggedin=true
+
+6. Flag Access:
+   - Admin panel button appears on homepage
+   - Click button to view flag
+   - Flag format: bhbureauCTF{C00K13_M4N1PUL4T10N_1S_FUN}
+
+Note: Challenge focuses on cookie manipulation and basic WordPress enumeration techniques.

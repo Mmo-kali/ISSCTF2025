@@ -1,0 +1,9 @@
+FakeCMS Admin Access Challenge
+----------------------------
+
+Description:
+We found this WordPress site running FakeCMS. Your goal is to gain access to the admin panel by accessing the /admin account. The site seems to have some user enumeration possibilities and weak security controls. Can you find a way to bypass the authentication and access the admin panel?
+
+Difficulty: Easy
+Category: Web
+Flag Format: bhbureauCTF{...}
