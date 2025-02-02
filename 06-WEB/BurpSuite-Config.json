@@ -1,0 +1,27 @@
+{
+  "project_options": {
+    "connections": {
+      "http": {
+        "max_connections": 5, // Max concurrent requests
+        "request_timeout": 30000 // 30 seconds timeout
+      },
+      "ssl": {
+        "max_connections": 5,
+        "request_timeout": 30000
+      }
+    },
+    "sessions": {
+      "handling": {
+        "rules": [
+          {
+            "enabled": true,
+            "auto_fix": true,
+            "scope": {
+              "url_scope": "All URLs"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
