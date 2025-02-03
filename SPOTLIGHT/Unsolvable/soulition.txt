@@ -1,0 +1,27 @@
+Orlando, Michael, Praj 
+
+Here’s a step-by-step example with radare2:
+
+Open the binary:
+r2 -Aw your_binary
+
+Analyze the binary:
+aaa
+
+Find the key check function:
+afl
+
+Disassemble the function:
+pdf @ <function_address>
+
+Patch the jne instruction:
+s 0x000011cf
+wa jmp 0x000011ea
+
+Write the changes:
+q
+
+
+
+TO GET THE FLAG: 
+qui
