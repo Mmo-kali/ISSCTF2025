@@ -1,0 +1,30 @@
+Michael, Orlando, Micah
+
+The user gets
+
+xpeud vhrnrw YzI5dFluSmg=
+
+FLAG: Mix all of the words with a _ in the first a - in the last and append a .
+
+
+shadow has vigenere.
+Cipher key is dark
+
+
+becomes :  vhrnrw
+
+
+
+Umbra has Caesar cipher
+
+becomes : xpeud
+
+
+
+sombra has base64
+
+Becomes : YzI5dFluSmg=
+
+
+
+FLAG IS : umbra_shadow-sombra.
