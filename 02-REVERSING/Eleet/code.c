@@ -23,16 +23,6 @@ const char flag_xor_key = 0x42;
 const char xor_key[PAYLOAD_SIZE] = {0x3A, 0x5F, 0x2D, 0x4C, 0x7B, 0x19, 0x42, 0x6E, 
                                     0x51, 0x39, 0x7A, 0x20, 0x5C, 0x33, 0x71, 0x48};
 
-// Displays the "cool" ASCII graphic with the warning message
-void display_timer_message() {
-    printf("\n");
-    printf("╔════════════════════════════════════════╗\n");
-    printf("║          ⏳  TIME IS TICKING...        ║\n");
-    printf("║ You have 5 minutes to send FakeCrypto ║\n");
-    printf("║          to address 0x01010101        ║\n");
-    printf("╚════════════════════════════════════════╝\n");
-    printf("\n");
-}
 
 // Simple XOR decryption
 void decrypt_payload(char *data, int len) {
@@ -110,6 +100,18 @@ void start_timer() {
     while (time(NULL) - start_time < TIMEOUT) {
         sleep(1); // Just waiting without consuming CPU
     }
+}
+
+// Displays the "cool" ASCII graphic with the warning message
+void display_timer_message() {
+    printf("\n");
+    printf("╔════════════════════════════════════════╗\n");
+    printf("║          ⏳  TIME IS TICKING...        ║\n");
+    printf("║ You have 5 minutes to send FakeCrypto ║\n");
+    printf("║          to address 0x01010101        ║\n");
+    printf("╚════════════════════════════════════════╝\n");
+    printf("\n");
+    start_listener();
 }
 
 int main() {
