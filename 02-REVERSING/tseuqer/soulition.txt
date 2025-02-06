@@ -1,0 +1,36 @@
+Michael, Orlando 
+
+How to Solve the Challenge?
+Contestants must analyze the binary to uncover the hidden network requests and extract the flag.
+
+Steps to Solve:
+Static Analysis (Reverse Engineering)
+
+Use strings or radare2 to detect references to curl_easy_init() and CURLOPT_URL.
+Observe that it contacts a specific domain.
+Dynamic Analysis (Runtime Monitoring)
+
+Run with strace or ltrace to detect network activity:
+sh
+Copy
+Edit
+strace -e trace=network ./malware_binary
+Use tcpdump or Wireshark to capture outgoing connections:
+sh
+Copy
+Edit
+sudo tcpdump -i any -n host issessionsctf-qwertyxyzqwertty.chals.io
+Detect background activity using:
+sh
+Copy
+Edit
+netstat -tulnp | grep malware_binary
+Patch Out the Network Call
+
+Modify the binary to disable curl_easy_perform() calls.
+Run the modified binary to extract the flag.
+Flag Output
+css
+Copy
+Edit
+Flag: bhbureauCTF{Hidden_Network_Activity}
