@@ -11,12 +11,22 @@
 #define BUFFER_SIZE 444
 
 void authenticate(int clientSck) {	
+    
+    char banner[] = "\n ____  _            _    _    _       _     ____\
+		     \n|  _ \\| |          | |  | |  | |     | |   |  _ \\\
+		     \n| |_) | | __ _  ___| | _| |__| | __ _| |_  | |_) |_   _ _ __ ___  __ _ _   _ \
+		     \n|  _ <| |/ _` |/ __| |/ /  __  |/ _` | __| |  _ <| | | | '__/ _ \\/ _` | | | |\
+		     \n| |_) | | (_| | (__|   <| |  | | (_| | |_  | |_) | |_| | | |  __/ (_| | |_| |\
+		     \n|____/|_|\\__,_|\\___|_|\\_\\_|  |_|\\__,_|\\__| |____/ \\__,_|_|  \\___|\\__,_|\\__,_|\n";
+
+    send(clientSck, banner, strlen(banner), 0);
+
     char username[BUFFER_SIZE];
     char password[BUFFER_SIZE];
 
     send(clientSck, "Enter your alias: ", 17, 0);
 
-    recv(clientSck, username, BUFFER_SIZE * 5, 0); // Potential buffer overflow here
+    recv(clientSck, username, BUFFER_SIZE * 3, 0); // Potential buffer overflow here
 
     if (strcmp(username, "Pixy\n") != 0) {
         send(clientSck, "I don't know anybody with that name!\n", 36, 0);
@@ -90,15 +100,7 @@ int main() {
         } else if (pid == 0) {
             close(serverSck);
 	    printf("Connection established with %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
-            char banner[] = "\n ____  _            _    _    _       _     ____\
-		     \n|  _ \\| |          | |  | |  | |     | |   |  _ \\\
-		     \n| |_) | | __ _  ___| | _| |__| | __ _| |_  | |_) |_   _ _ __ ___  __ _ _   _ \
-		     \n|  _ <| |/ _` |/ __| |/ /  __  |/ _` | __| |  _ <| | | | '__/ _ \\/ _` | | | |\
-		     \n| |_) | | (_| | (__|   <| |  | | (_| | |_  | |_) | |_| | | |  __/ (_| | |_| |\
-		     \n|____/|_|\\__,_|\\___|_|\\_\\_|  |_|\\__,_|\\__| |____/ \\__,_|_|  \\___|\\__,_|\\__,_|\n";
-
-            send(clientSck, banner, strlen(banner), 0);
-	    authenticate(clientSck);
+            authenticate(clientSck);
 	    close(clientSck);
             exit(0); 
         } else {
