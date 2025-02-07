@@ -1,0 +1,5 @@
+> check the binary and you'll find a function called authenticate.
+> look inside it as it is doing work, if you look at the disassembly or just fuzz its you'll find the overflow would occur around 464 bytes
+> if you analysed the instructions well you'd notice a 'mov eax, ebp', this means the 4 bytes after 452 are written to eax, and a quick search using objdump and grep would tell you that there is a 'call eax'
+> use that to overflow the binary and gain execution 
+> when in the environment you'd notice a particular lack of read/write utility binaries, use 'read [VARNAME] < flag' and the 'echo $[VARNAME]' 
