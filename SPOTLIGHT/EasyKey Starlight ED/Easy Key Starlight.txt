@@ -1,0 +1,78 @@
+------------------------------------------------------------------------------
+Easy Key BRIGHT BRIGHT LIKE A STARLIGHT
+------------------------------------------------------------------------------
+
+Rumor says: "Sometimes the biggest illusions are the simplest to overlook."
+
+People get so excited by complex ciphers, they forget to check the basics.
+Could the real solution be found in plain letters, or in the metadata?
+
+------------------------------------------------------------------------------
+Part 1: The "Poem"
+------------------------------------------------------------------------------
+Riddles often deceive the untrained,  
+Now look beyond the obvious signs,  
+Focus on details that others ignore,  
+Lurking within is the truth you seek.  
+
+X marks the spot, but not always,  
+Reading between lines is a skill,  
+Learning the patterns unlocks clarity,  
+Visual cues will guide your way.  
+
+Finding hidden meaning takes patience,  
+Remember that puzzles favor the observant,  
+Never doubt the power of simplicity,  
+Focus focus focus because if you dont focus you lose,
+Lies can distract from what’s right here.  
+
+------------------------------------------------------------------------------
+Part 2: 'PGP' Snippet
+------------------------------------------------------------------------------
+-----BEGIN KEY BLOCK-----
+XYZ1-2345-ABCD-EF12
+QQQQ-RRRR-SSSS-TTTT
+-----END KEY BLOCK-----
+
+(But is it real or just for show?)
+
+------------------------------------------------------------------------------
+Part 3: Base64 Strings
+------------------------------------------------------------------------------
+MVggYnJpbmcgdGhlIGNoYW9zIG9mIGNyeXB0bw==
+
+UmVhbCBhbnN3ZXJzIGF3YWl0IGVsc2V3aGVyZSwgb3IgaXMgaXQgc2ltcGxlcg==
+
+QW5vdGhlciByZWQgZmVycmluZyB0byBjaGFzZSB1cw==
+
+(Do they help, or are they distractions?)
+
+------------------------------------------------------------------------------
+Part 4: Hex Snippet
+------------------------------------------------------------------------------
+54 6f 6f 20 6d 61 6e 79 20 64 65 63 6f 79 73 3f
+
+(A question worth answering?)
+
+------------------------------------------------------------------------------
+Part 5: ROT13 Clue?
+------------------------------------------------------------------------------
+Guvf pbhyq or n pybfr qvssvphyg bar...
+
+Be zl dhrfgvba vf, vf vg ernyyl fb qvssreraprshy?
+
+(If you decode this, do you get anything useful?)
+
+------------------------------------------------------------------------------
+Part 6: Final Message
+------------------------------------------------------------------------------
+Thanks for exploring this chaotic file.  
+Remember: "it’s right under your nose."
+
+We won't confirm or deny whether the poem, the ciphers,
+or the metadata hold the secret. But watch out for illusions:
+too many codes may hide the simplest truth.
+
+Good luck, friend!
+
+------------------------------------------------------------------------------
