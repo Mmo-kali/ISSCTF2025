@@ -1,8 +1,5 @@
 Michael, Orlando, Prajwal
 _________________
-Solution: Reverse Engineering Challenge
-Challenge Name: Reverse Me If You Can
-Flag Format: bhbureauCTF{Flag-Goes-Here}
 
 Step 1: Identifying Anti-Debugging Techniques
 The binary includes several anti-debugging techniques:
