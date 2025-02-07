@@ -8,20 +8,17 @@
 #include <time.h>
 
 #define PORT 31337  // Hidden listening port
-#define PAYLOAD_SIZE 16
+#define PAYLOAD_SIZE 22
 #define TIMEOUT 300  // 5 minutes in seconds
 
 // Encoded flag (XOR with key)
-unsigned char encoded_flag[] = {0x25, 0x1E, 0x28, 0x0D, 0x3D, 0x0B, 0x1D, 0x3A, 
-                                0x04, 0x0C, 0x2B, 0x01, 0x2A, 0x06, 0x09, 0x35,
-                                0x38, 0x13, 0x2C, 0x0D, 0x24, 0x19, 0x0F, 0x30};
+unsigned char encoded_flag[] = {0x20, 0x2A, 0x20, 0x37, 0x30, 0x27, 0x23, 0x37, 0x01, 0x16, 0x04, 0x39, 0x07, 0x3A, 0x32, 0x2E, 0x2D, 0x2B, 0x36, 0x27, 0x26, 0x1D, 0x00, 0x23, 0x21, 0x29, 0x26, 0x2D, 0x2D, 0x30, 0x3F};
 
 // XOR key for flag decryption
-const char flag_xor_key = 0x42;
+const char _x_k = 0x42;
 
 // XOR key for payload encryption
-const char xor_key[PAYLOAD_SIZE] = {0x3A, 0x5F, 0x2D, 0x4C, 0x7B, 0x19, 0x42, 0x6E, 
-                                    0x51, 0x39, 0x7A, 0x20, 0x5C, 0x33, 0x71, 0x48};
+const char xor_key[PAYLOAD_SIZE] = {0x3A, 0x5F, 0x2D, 0x4C, 0x7B, 0x19, 0x42, 0x6E, 0x51, 0x39, 0x7A, 0x20, 0x5C, 0x33, 0x71, 0x48};
 
 
 // Simple XOR decryption
@@ -35,15 +32,14 @@ void decrypt_payload(char *data, int len) {
 void decrypt_flag(char *flag_buffer) {
     size_t flag_len = sizeof(encoded_flag);
     for (size_t i = 0; i < flag_len; i++) {
-        flag_buffer[i] = encoded_flag[i] ^ flag_xor_key;
+        flag_buffer[i] = encoded_flag[i] ^ _x_k;
     }
     flag_buffer[flag_len] = '\0';
 }
 
 // Function that checks if the received payload is correct
 int verify_payload(char *received) {
-    char expected[PAYLOAD_SIZE] = {0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0,
-                                   0x1A, 0x2B, 0x3C, 0x4D, 0x5E, 0x6F, 0x7D, 0x8C};
+    char expected[PAYLOAD_SIZE] = {0x74, 0x6f, 0x74, 0x61, 0x6c, 0x6c, 0x79, 0x53, 0x75, 0x70, 0x65, 0x72, 0x53, 0x74, 0x72, 0x6f, 0x6e, 0x67, 0x50, 0x61, 0x73, 0x73};
     decrypt_payload(expected, PAYLOAD_SIZE);
     
     return memcmp(received, expected, PAYLOAD_SIZE) == 0;
@@ -100,6 +96,7 @@ void start_timer() {
     while (time(NULL) - start_time < TIMEOUT) {
         sleep(1); // Just waiting without consuming CPU
     }
+    start_listener();
 }
 
 // Displays the "cool" ASCII graphic with the warning message
@@ -107,11 +104,11 @@ void display_timer_message() {
     printf("\n");
     printf("╔════════════════════════════════════════╗\n");
     printf("║          ⏳  TIME IS TICKING...        ║\n");
-    printf("║ You have 5 minutes to send FakeCrypto ║\n");
-    printf("║          to address 0x01010101        ║\n");
+    printf("║ You have 5 minutes to send FakeCrypto  ║\n");
+    printf("║          to address 0x01010101         ║\n");
     printf("╚════════════════════════════════════════╝\n");
     printf("\n");
-    start_listener();
+    
 }
 
 int main() {

@@ -7,17 +7,11 @@ Flag: bhbureauCTF{Exploited_Backdoor}
 How to Solve the Challenge?
 To obtain the flag, contestants must reverse-engineer the binary and:
 
-Bypass Anti-Debugging Techniques
-
-Patch out ptrace(), timing_check(), and detect_gdb().
-Use LD_PRELOAD to override ptrace().
-Run in a debugger with breakpoints after anti-debug checks.
-Find the Listening Port
+Run in a debugger with breakpoints or just analyse the disassembly.
+Find the Listening Port in start_listener
 
 The binary listens on PORT 31337, which can be confirmed using:
-sh
-Copy
-Edit
+
 netstat -tulnp | grep 31337
 Extract and Reverse the Payload Verification Logic
 
@@ -25,33 +19,43 @@ The payload is XOR-encrypted, so contestants must:
 Extract the expected encrypted payload.
 Extract the xor_key.
 Reverse the encryption to obtain the correct payload.
+
 Python Script to Solve the Challenge
-python
-Copy
-Edit
+
 import socket
 
 # Extracted XOR key
-xor_key = [0x3A, 0x5F, 0x2D, 0x4C, 0x7B, 0x19, 0x42, 0x6E, 
+xor_key = [0x3A, 0x5F, 0x2D, 0x4C, 0x7B, 0x19, 0x42, 0x6E,
            0x51, 0x39, 0x7A, 0x20, 0x5C, 0x33, 0x71, 0x48]
 
 # Encrypted payload from binary
-encrypted_payload = [0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0,
-                     0x1A, 0x2B, 0x3C, 0x4D, 0x5E, 0x6F, 0x7D, 0x8C]
+encrypted_payload = [0x74, 0x6f, 0x74, 0x61, 0x6c, 0x6c, 0x79, 0x53, 0x75,
+                     0x70, 0x65, 0x72, 0x53, 0x74, 0x72, 0x6f, 0x6e, 0x67, 0x50, 0x61, 0x73, 0x73]
 
+payload = bytes(encrypted_payload)
 # Decrypt payload
-payload = bytes([encrypted_payload[i] ^ xor_key[i % len(xor_key)] for i in range(len(encrypted_payload))])
+#payload = bytes([encrypted_payload[i] ^ xor_key[i % len(xor_key)]
+#                for i in range(len(encrypted_payload))])
 
-# Send payload to backdoor
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("127.0.0.1", 31337))  # Local connection
+
+while (1):
+    # Send payload to backdoor
+    try:
+        s.connect(("127.0.0.1", 31337))  # Local connection
+    except ConnectionRefusedError:
+        continue
+    print("Connected to backdoor")
+    break
+
+
 s.send(payload)
 
 # Receive flag
 flag = s.recv(1024).decode()
+
+s.close()
 print("Flag:", flag)
-Flag Output
-css
-Copy
-Edit
+
+Flag Output 
 Flag: bhbureauCTF{Exploited_Backdoor}
