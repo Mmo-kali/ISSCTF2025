@@ -1,0 +1,25 @@
+Orlando, Michael, Prajwal
+
+1Look for xor_encrypt, xor_decrypt, combineKeys, and win
+
+2 secret key is formed at runtime via combineKeys(), and the final function win() is referenced by a hidden pointer.
+
+3 combineKeys(), and the final function win() is referenced by a hidden pointer.
+
+
+4 enter "UnbreakableP@ssw0rd!" you got from strings
+
+5 The secret key is stored in two parts: partialKey1 and partialKey2
+
+6 get the Encrypted Key from the program.
+
+Decrypt key 
+
+for i in range(len(encryptedKey)):
+    decrypted[i] = encryptedKey[i] ^ (OBFUSCATION_KEY + (i * 5))
+
+
+
+
+
+FLAG: W3bIsCool-But-R3VEng-istoo
