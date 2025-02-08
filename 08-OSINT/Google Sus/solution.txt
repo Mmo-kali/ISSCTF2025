@@ -1,10 +1,15 @@
 The Gist:
 - User given a Linkedin: https://www.linkedin.com/in/wilford-von-bugsy-58718433b/
 - Contact info includes gmail address: wilford.von.bugsy1982@gmail.com
-- User must either use a tool like Epieos or technique to get Google ID from gmail
-- With the Google ID, user can view google maps reviews
-- A review will be left on Monaghan's. Will mention Wilford shared photos from monnies and will include a very specific hashtag
-- Searching the hashtag on instagram leads to an IG post which will include the flag
-- Alternatively, searching posts with Monaghans as the location should also give the flag
+- User can either use a tool like Epieos or technique to get Google ID from gmail
+- With the Google ID, user can view google maps reviews NOTE: review does not appear on Google Maps profile but does appear when looking at Monaghans reviews
+- A review is on Monaghan's. Will mention Wilford shared photos from monnies and will include a very specific hashtag
+- Searching the hashtag on instagram leads to the account with the flag OR looking at posts with Monaghans as the location
+
+NEW SOLUTION:
+- Using a tool like Epieos or Predicta Search will show Wilford has an account on Vivino (wine reviewing platform)
+- Vivino username: wilford.von.bugsy1982
+- Review mentions photos taken of buffalo chicken sandwich and hashtag included
+- Users may searching for the pub and find Google Maps or just go straight to Instagram
 
 bhbureauCTF{hungry_hungry_epieos}
