@@ -9,11 +9,10 @@ extra:
 flags:
 - bhbureauCTF{w1th_th3_blu3_ch33s3}
 hints:
-- content: 
+- content: I get it, I get it, you want a hint. There's no need to wine. I mean whine. 
   cost: 0
 name: Google Sus
 requirements:
-- He uses gmail. Interesting.
 state: visible
 tags:
 - hard
