@@ -12,4 +12,4 @@ NEW SOLUTION:
 - Review mentions photos taken of buffalo chicken sandwich and hashtag included
 - Users may searching for the pub and find Google Maps or just go straight to Instagram
 
-bhbureauCTF{hungry_hungry_epieos}
+bhbureauCTF{w1th_th3_blu3_ch33s3}
