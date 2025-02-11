@@ -55,5 +55,5 @@ def admin():
         return "Access Denied: Invalid credentials."
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 80))  # Default to 8000 if PORT is not set
+    port = int(os.environ.get('PORT', 5000))  # Default to 8000 if PORT is not set
     app.run(debug=False, host='0.0.0.0', port=port)
